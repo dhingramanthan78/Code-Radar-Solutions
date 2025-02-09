@@ -1,7 +1,9 @@
 #include <stdio.h>
 int main(){
     float num;
-    scanf("%.2f", &num);
+   if( scanf("%.2f", &num)!=1){
+    return 1;
+   }
     printf("%.2f",num);
     return 0;
 }
