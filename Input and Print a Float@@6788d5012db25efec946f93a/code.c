@@ -1,9 +1,15 @@
 #include <stdio.h>
-int main(){
+
+int main() {
     float num;
-   if( scanf("%.2f", &num)!=1){
-    return 1;
-   }
-    printf("%.2f",num);
+    
+    // Check if scanf successfully reads a float
+    if (scanf("%f", &num) != 1) {
+        printf("Invalid input\n");
+        return 1; // Exit with an error code
+    }
+
+    printf("%.2f\n", num);
+    
     return 0;
 }
