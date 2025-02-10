@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    float num;
+    float *num;
     
    
-    if (scanf("%f", &num) != 1) {
+    if (scanf("%f", &*num) != 1) {
         printf("Invalid input\n");
         return 1; 
     }
