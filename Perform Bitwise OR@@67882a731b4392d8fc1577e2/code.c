@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main(){
-    int a,b;
+    int a,b,result;
     scanf("%d %d", &a, &b);
-    print("%d\n", a|b);
+    result=a | b;
+    print("%d\n", result);
     return 0;
 }
