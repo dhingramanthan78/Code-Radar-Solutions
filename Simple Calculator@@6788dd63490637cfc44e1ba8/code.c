@@ -23,7 +23,7 @@ int main(){
                 result = a / b;
                 printf("%d", result);
             } else {
-                printf("Division by zero is not allowed");
+                printf("error");
             }
             break;
         default:
