@@ -8,7 +8,7 @@ int main(){
     } else if(islower(alpha)){
         printf("Lowercase");
     }else{
-        printf("Not a alphabet");
+        printf("Not an alphabet");
     }
     return 0;
 }
