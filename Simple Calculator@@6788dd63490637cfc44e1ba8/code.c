@@ -19,15 +19,9 @@ int main(){
          printf("%d",result);
          break;
         case '/':
-           if (b!=0){
             result=a/b;
             printf("%d",result);
             break;
-           }
-           else{
-            printf("The Division of the number is not possible\n");
-            break;
-           }
          default:
           printf("error");
     }
