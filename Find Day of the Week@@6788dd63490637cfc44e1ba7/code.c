@@ -4,27 +4,27 @@ int main(){
     scanf("%d", &day);
     switch (day){
         case 1:
-         printf("Today is Monday");
+         printf("Monday");
          break;
         case 2:
-         printf("Today is Tuesday");
+         printf("Tuesday");
          break;
         case 3:
-         printf("Today is Wednesday");
+         printf("Wednesday");
          break;
         case 4:
-         printf("Today is Thursday");
+         printf("Thursday");
          break;
         case 5:
-         printf("Today is Friday");
+         printf("Friday");
          break;
         case 6:
-         printf("Today is Saturday");
+         printf("Saturday");
          break;
         case 7:
-         printf("Today is Sunday");
+         printf("Sunday");
          break;
         default:
-         printf("Please enter the number between 1-7");
+         printf("Invalid");
     } return 0;
 }
