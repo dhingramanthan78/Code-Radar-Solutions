@@ -4,7 +4,7 @@ int main(){
     char operation;
     scanf("%d", &a);
     scanf("%d", &b);
-    scanf("%s", &operation);
+    scanf("%c", &operation);
     switch(operation){
         case '+':
          result=a+b;
