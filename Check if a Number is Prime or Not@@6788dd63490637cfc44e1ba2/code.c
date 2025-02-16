@@ -2,8 +2,10 @@
 int main(){
     int a;
     scanf("%d", &a);
-    if(is_prime(a)){
-        printf("Prime");
+    if(a>=1){
+        if(a%1==0 && a%a==0){
+            printf("Prime");
+        }
     }else{
         printf("Not Prime");
     }
