@@ -2,7 +2,7 @@
 int main(){
     int a,result;
     scanf("%d", &a);
-    result=decimalTobinary(a);
+    result=decimalToBinary(a);
     printf("%d",result);
     return 0;
 }
