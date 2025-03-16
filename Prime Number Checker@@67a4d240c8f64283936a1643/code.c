@@ -13,7 +13,7 @@ int isPrime(int num) {
     return 1; // Prime number
 }
 
- int main() {
+int main() {
     int num;
     scanf("%d", &num);
     int arr[num]; 
