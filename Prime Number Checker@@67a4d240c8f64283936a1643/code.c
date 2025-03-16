@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 // Function to check if a number is prime
-int isprime(int num) {
+int isPrime(int num) {
     if (num < 2) {
         return 0; // Numbers less than 2 are not prime
     }
@@ -13,7 +13,7 @@ int isprime(int num) {
     return 1; // Prime number
 }
 
-int main() {
+ int main() {
     int num;
     scanf("%d", &num);
     int arr[num]; 
@@ -21,7 +21,7 @@ int main() {
         scanf("%d", &arr[i]); 
     }
     for (int i = 0; i < num; i++) {
-        if (isprime(arr[i])) {
+        if (isPrime(arr[i])) {
             return 1;
         } else {
            return 0;
