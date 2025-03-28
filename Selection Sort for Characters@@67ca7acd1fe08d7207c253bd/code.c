@@ -17,8 +17,8 @@ void selectionSort(char arr[],int n){
       }
     }
 }
-    void printarray(char arr[];int size){
-        for (int i=1;i<=size;i++){
+    void printarray(char arr[],int size){
+        for (int i=0;i<size;i++){
             printf("%c", arr[i]);
         }
 }
@@ -28,8 +28,8 @@ void selectionSort(char arr[],int n){
         char arr[n];
         for (int i=0;i<n;i++){
             scanf(" %c", &arr[i]);
-            selectionSort(arr,n);
+        }
+         selectionSort(arr,n);
             printarray(arr,n);
             return 0;
-        }
     }
