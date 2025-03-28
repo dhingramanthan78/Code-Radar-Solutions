@@ -9,12 +9,14 @@ void selectionSort(char arr[],int n){
                 minindex=j;
             }
         }
+        if (minindex!=i){
          temp=arr[i];
             arr[i]=arr[minindex];
             arr[minindex]=temp;
       
       }
     }
+}
     void printarray(char arr[];int size){
         for (int i=1;i<=size;i++){
             printf("%c", arr[i]);
