@@ -15,18 +15,19 @@ int findUnsortedSubarray(int arr[],int n){
     int maxval=arr[left];
     for (int i=left; i<=right; i++){
         if (arr[i]<minval){
-            minval==arr[i];
+            minval=arr[i];
         }
         if (arr[i]>maxval){
             maxval=arr[i];
         }
-        while (left>0 && arr[left-1]>minval){
+       
+    }
+     while (left>0 && arr[left-1]>minval){
             left--;
         }
         while(right<n-1 && arr[right+1]<maxval){
             right++;
         }
-    }
     return right-left+1;
 }
 int main(){
@@ -36,7 +37,7 @@ int main(){
         int n;
         scanf("%d", &n);
         int arr[n];
-        for (int i=1;i<=n;i++){
+        for (int i=0;i<n;i++){
             scanf("%d", &arr[i]);
         }
         int result=findUnsortedSubarray(arr,n);
