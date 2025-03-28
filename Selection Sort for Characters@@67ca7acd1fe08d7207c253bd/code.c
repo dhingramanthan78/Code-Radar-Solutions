@@ -1,23 +1,25 @@
 #include <stdio.h>
 void selectionSort(char arr[],int n){
-    int minindex,char temp;
-    for (int i=0;i<=i-1;i++0){
+    int minindex;
+    char temp;
+    for (int i=0;i<n-1;i++){
         minindex=i;
         for (int j=i+1;j<n;j++){
             if(arr[j]<arr[minindex]){
                 minindex=j;
             }
-            temp=arr[i];
+        }
+         temp=arr[i];
             arr[i]=arr[minindex];
             arr[minindex]=temp;
-            
-        }
-      void printarray(int arr;int size){
+      
+      }
+    }
+    void printarray(int arr;int size){
         for (int i=1;i<=size;i++){
             printf("%c", arr[i]);
         }
-      }
-    }
+}
     int main(){
         int n;
         scanf("%d", &n);
@@ -29,5 +31,3 @@ void selectionSort(char arr[],int n){
             return 0;
         }
     }
-
-}
