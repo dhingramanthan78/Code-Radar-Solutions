@@ -12,19 +12,12 @@ int isPrime(int num) {
 }
 
 int main(){
-    int num;
-    scanf("%d", &num);
-    int arr[num]; 
-    for (int i = 0; i < num; i++) {
-        scanf("%d", &arr[i]); 
+    int t;
+    scanf("%d", &t);
+    while (t--){
+        int num;
+        scanf("%d", &num);
+        printf("%d\n", isPrime(num));
     }
-    for (int i = 0; i < num; i++) {
-        if (isPrime(arr[i])) {
-            return 1;
-        } else {
-           return 0;
-        }
     }
-
-    return 0;
-}
+    
