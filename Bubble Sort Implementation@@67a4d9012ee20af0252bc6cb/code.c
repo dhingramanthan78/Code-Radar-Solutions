@@ -16,4 +16,3 @@ void printarray(int arr[],int n){
     }
     printf("\n");
 }
-bubblesort(arr,n);
