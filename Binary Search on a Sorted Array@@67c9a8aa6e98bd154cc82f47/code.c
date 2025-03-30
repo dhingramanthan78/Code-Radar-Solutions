@@ -3,23 +3,21 @@ void binarysearch(int arr[],int n,int search){
     int first,middle,last;
     first=0;
     last=n-1;
-    middle=(first+last)/2;
     while(first<=last){
+        middle=(first+last)/2;
         if(arr[middle]<search){
             first=middle+1;
         }
         else if(arr[middle]==search){
+            return middle;
             break;
         }
         else{
             last=middle-1;
-            middle=(first+last)/2;
         }
     }
-    if (first>last){
-        return -1;
+     return -1;
     }
-}
 int main(){
     int n, target;
     scanf("%d",&n);
