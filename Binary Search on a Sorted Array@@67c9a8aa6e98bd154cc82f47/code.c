@@ -1,5 +1,5 @@
 #include <stdio.h>
-void binarysearch(int arr[],int n,int search){
+int binarysearch(int arr[],int n,int search){
     int first,middle,last;
     first=0;
     last=n-1;
