@@ -7,7 +7,7 @@ int isPrime(int num) {
     }
     return 1; 
 }
-void PrimesInRange(int a, int b) {
+void printPrimesInRange(int a, int b) {
     for (int i = a; i <= b; i++) {
         if (isPrime(i)) {
             printf("%d ", i); 
@@ -19,6 +19,6 @@ void PrimesInRange(int a, int b) {
 int main() {
     int a, b;
     scanf("%d %d", &a, &b);
-    PrimesInRange(a, b);
+    printPrimesInRange(a, b);
     return 0;
 }
