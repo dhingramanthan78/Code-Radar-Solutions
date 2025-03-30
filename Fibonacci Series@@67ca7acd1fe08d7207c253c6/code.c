@@ -6,7 +6,7 @@ void fibonacciSeries(int n){
     for (int i=0;i<n;i++){
         next=a+b;
         a=b;
-        b=next
+        b=next;
     }
     printf("\n");
 }
