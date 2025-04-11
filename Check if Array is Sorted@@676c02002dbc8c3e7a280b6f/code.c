@@ -18,8 +18,8 @@ int main(){
     for (int i=0;i<n;i++){
         scanf("%d ",&arr[i]);
     }
-    sorted(arr,n);
-    if(return 0){
+    
+    if(sorted(arr,n)){
         printf("Sorted");
     }else{
         printf("Not Sorted");
