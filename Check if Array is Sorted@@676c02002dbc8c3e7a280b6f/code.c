@@ -8,11 +8,11 @@ int main(){
     }
     for (int i=0;i<n;i++){
         for (int j=1;j<n;j++){
-               arr[i]<arr[j]
+               arr[i]<arr[j];
                return Sorted;
         }
     }
-    return Not Sorted
+    return Not Sorted;
    
 
 }
