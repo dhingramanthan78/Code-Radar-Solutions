@@ -1,12 +1,9 @@
 #include <stdio.h>
 int sorted(int arr[],int size){
     for(int i=0;i<size;i++){
-        for(int j=1;j<size;j++){
-            if(arr[i]<arr[j]){
+       if(arr[i]<arr[i+1]){
                 return 0;
             }
-
-        }
     }
     return 1;
 }
