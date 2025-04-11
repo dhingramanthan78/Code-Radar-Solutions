@@ -8,13 +8,11 @@ int main(){
     }
     for (int i=0;i<n;i++){
         for (int j=1;j<n;j++){
-               if (arr[i]>arr[j]){
-        printf("Sorted");
-    }else{
-        printf("Not Sorted");
-    }
+               arr[i]<arr[j]
+               return Sorted;
         }
     }
+    return Not Sorted
    
 
 }
