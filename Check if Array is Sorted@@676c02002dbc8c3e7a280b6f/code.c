@@ -4,19 +4,18 @@ int sorted(int arr[],int size){
         for(int j=1;j<size;j++){
             if(arr[i]<arr[j]){
                 return 0;
-            }else{
-                return 1;
-            }
+            }el
 
         }
     }
+    return 1;
 }
 int main(){
     int n;
     scanf("%d",&n);
     int arr[n];
     for (int i=0;i<n;i++){
-        scanf("%d ",&arr[i]);
+        scanf("%d",&arr[i]);
     }
     
     if(sorted(arr,n)){
@@ -24,4 +23,5 @@ int main(){
     }else{
         printf("Not Sorted");
     }
+    return 0;
 }
